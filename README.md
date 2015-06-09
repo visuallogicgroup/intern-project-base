@@ -1,17 +1,20 @@
 # intern-project-base
-make sure homebrew is installed
 
-download and install vagrant
+### Pre-requisites
+- Install [Vagrant](https://www.vagrantup.com/)
+- Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
-go to terminal -  $ git clone (project)
+### Installation
+- Open Terminal (Mac) or Command Prompt (Windows)
+- Create and `cd` into the directory you wish to keep the project
+- `git clone https://github.com/visuallogicgroup/intern-project-base.git`
+- `cd intern-project-base`
+- `vagrant up`
 
-- go to directory
-  - $ brew install virtualbox
-  - $ brew install caskroom/cask/brew-cask
-  - $ brew cask install google-chrome
-  - $ vagrant up
-
-
-- go to app folder
-  - $ npm install
-  - $ node server.js
+### Running
+- `cd` into the `intern-project-base` directory
+- `vagrant up`
+- `vagrant ssh`
+- `cd /vagrant/app`
+- `npm install`
+- `node server.js`
