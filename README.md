@@ -2,7 +2,8 @@
 make sure homebrew is installed
 
 download and install vagrant
-terminal -  $ git clone (project)
+
+go to terminal -  $ git clone (project)
 
 - go to directory
   - $ brew install virtualbox
